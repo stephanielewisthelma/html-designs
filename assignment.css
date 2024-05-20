@@ -1,0 +1,36 @@
+
+.{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    background-color:  rgb(39, 38, 38); 
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: bisque;
+    width: 290px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 16px;
+
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 15%;
+    width: 40%:
+    marg
+
+
+    
+}
+.card-1{
+   
