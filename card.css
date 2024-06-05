@@ -1,0 +1,107 @@
+.ppp{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding: 15px;
+    
+    
+    
+    
+    
+}
+body{
+    background-color: beige;
+    
+    gap: 30px;
+    justify-content: center;
+    margin-top: 150px;
+    
+
+}
+section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.card-image{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-image: url(https://th.bing.com/th?id=OIP.2b1YOnaEO7rN8bFp16apPAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2)
+
+}
+.button{
+    background-color: rgb(231, 180, 231);
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    color: purple;
+    margin-left: 10px;
+    
+}
+i{
+    font-size: 30px;
+}
+.card-image2{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    
+    
+    background-image: url(https://www.bing.com/th?id=OIP.UotdnuCToHQmmIqrMcDfWgHaE8&w=147&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2  );
+}
+
+.card-image3{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    
+
+    background-repeat: no-repeat;
+    background-image:url( https://th.bing.com/th?id=OIP.sXBSOeURTQtjddCC1LAV6wHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2) ;
+}
+.res{
+    width: 45%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    margin-top: 100px;
+    
+}
+.button2{
+    background-color: rgb(131, 131, 201);
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    color: rgb(84, 84, 167);
+    margin-left: 10px;
+
+}
+
+.button3{
+    background-color:rgb(110, 241, 110);
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    color: rgb(41, 131, 41);
+    margin-left: 10px;
+
+}

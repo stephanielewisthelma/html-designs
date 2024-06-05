@@ -1,0 +1,60 @@
+.blog{
+    font-weight: bolder;
+    font-size: 40px;
+}
+body{
+    background-color: rgb(191, 214, 206);
+}
+.crd1{
+    width: 22%;
+    height: 750px;
+    background-color: white;
+    margin-left: 5%;
+    border: 3px solid rgb(196, 71, 71); 
+}
+.cardimg{
+    background-image: url(https://th.bing.com/th?id=OSK.HEROAgfFWcrCFtq9bcxOwdigKRvzzCuB_nzInQlnEXNoumQ&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM );
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:8px solid rgb(223, 105, 105) ;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 50px;
+    color: white;
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.textt{
+    text-align: center;
+    
+}
+.buttn{
+    width: 30%;
+    height: 45px;
+    background-color: rgb(253, 73, 73);
+    color: white;
+    margin-left: 30%;
+
+
+}
+.pppp{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    height: 30px;
+    /* background-color: aqua; */
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}

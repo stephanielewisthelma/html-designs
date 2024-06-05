@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(76, 129, 245);
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.white{
+    width: 380px;
+    height: 620px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.info{
+    color: rgb(66, 66, 167);
+}  
+.no1{
+    width: 90%;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.no2{
+    width: 39%;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.blue{
+    width: 380px;
+    height: 620px;
+    background-color: rgb(31, 4, 153);
+    padding-left: 25px;
+    padding-top: 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.contact{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.long{
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+}
+.sht1{
+    width: 25%;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+}
+.sht2{
+    width: 53%;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+}
+.tc{
+    font-size: 16px;
+    color: white;
+}
+.tc1{
+    font-size: 16px;
+    color: white;
+}
+.badge{
+    width: 200px;
+    height: 38px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+

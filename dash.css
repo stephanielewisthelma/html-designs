@@ -1,0 +1,636 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstdiv{
+    width: 100%;
+    height: 5300px;
+    background-color:white;
+}
+.image1{
+    width: 100%;
+    height: 650px;
+    background-image: url(ICS-77-HV-ITALSERRAMENTI-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.486);
+}
+.navbar{
+    width:100%;
+    height: 70px;
+    /* background-color:lawngreen; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 50px; */
+    /* margin-left: 250px; */
+    border-bottom: 1px solid black;
+    
+}
+.navtitle{
+    color: white;
+    width: 120px;
+   margin-left: 250px;
+    
+   
+}
+.navoption > a{
+    text-decoration: none;
+    color: white;
+}
+.navoption{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    /* background-color: aqua; */
+    /* margin-top: 15px; */
+    margin-left: 400px;
+}
+.blue{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: rgb(10, 10, 209);
+    border: none;
+    border-radius: 3px;
+    /* text-align: center; */
+    font-weight: bolder;
+    margin-right: 130px;
+   
+}
+.text1{
+    width: 60%;
+    height: 200px;
+    /* background-color: coral; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    /* align-items: ; */
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.play{
+    width: 20%;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.soon{
+    width: 20%;
+    height: 40px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+.botton{
+    width: 150%;
+    height: 90px;
+    /* background-color: burlywood; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+
+}
+.image2{
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+}
+.pic1{
+    width: 30%;
+    height: 250px;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 40px;
+   
+    
+}
+.pic2{
+    width: 30%;
+    height: 250px;
+    background-color:purple;
+    text-align: center;
+    padding-top: 40px;
+}
+.pic3{
+    width: 30%;
+    height: 250px;
+    background-color:rgb(28, 197, 28);
+    text-align: center;
+    padding-top: 40px;
+}
+.pic4{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(3, 160, 212);
+    text-align: center;
+    padding-top: 40px;
+}
+.image3{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.greycolor{
+    color: grey;
+}
+.why{
+    width: 80%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    /* margin-top: 20px; */
+    padding-top: 80px;
+    text-align: center;
+}
+.work{
+    width: 100%;
+    height: 350px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.div{
+    width: 19%;
+    height: 290px;
+    /* background-color: rgb(85, 42, 165); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div > i{
+    color: orangered;
+    font-size: 35px;
+}
+.image4{
+    width: 100%;
+    height: 1200px;
+    /* background-color:rgb(153, 15, 15); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our{
+    width: 80%;
+    height: 200px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 180px; */
+}
+.our2{
+    color: white;
+}
+.one{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    /* margin-left:180px ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid black;
+}
+.one1{
+    width: 80%;
+    height: 500px;
+    /* background-color: blue; */
+    border-bottom: none;
+    /* margin-right: 950px; */
+}
+
+.image{
+    width: 35%;
+    height: 300px;
+    background-image: url(R.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+}
+.text{
+    width: 50%;
+    height:400px ;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* margin-top: 50px; */
+}
+
+.text-holder{
+    width: 100%;
+    height: 25%;
+    /* background-color: bisque; */
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 100%;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.project > i{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.education > p{
+    color: rgb(136, 136, 136);
+}
+.seagreen{
+    color: lightseagreen;
+}
+.color-red{
+    color: orangered;
+}
+.purple{
+    color: purple;
+}
+
+.image5{
+    width: 100%;
+    height: 750px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.individual{
+    height: 500px;
+    width: 23%;
+    background-color: rgb(49, 45, 45);
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 5px;
+    background-image: url(generali-skyscraper-luca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.indi2{
+    background-color: rgb(56, 206, 121);
+    background-image: url(City_skyscrapers_blue_sky_photography_1366x768.jpg);
+    background-blend-mode: darken;
+}
+.indi3{
+    background-color: rgb(226, 104, 60);
+    background-image: url(OIP\ \(3\).jfif);
+    background-blend-mode:darken ;
+}
+.buy{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.card{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.individual > h1{
+    font-weight: 500;
+}
+span.numb{
+    font-size: 70px;
+    font-weight: 500;
+}
+sup{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.members{
+    width: 90%;
+    height: 50%;
+    /* background-color: crimson; */
+    padding-top: 40px;
+    margin-left: 59px;
+    display: flex;
+}
+
+.image6{
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.picdiv{
+    width: 75%;
+    height: 900px;
+    /* background-color: yellow; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.our3{
+    color: black;
+}
+.girl{
+    width: 50%;
+    height:400px ;
+    /* background-color: firebrick; */
+    display: flex;
+    gap: 20px;
+}
+.girlimage1{
+    width: 60%;
+    height: 60%;
+    background-color: azure;
+    background-image: url(tyla.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.girlimage2{
+    background-image: url(ariana.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.girltext{
+    width: 55%;
+    height: 70%;
+    padding-top: 10px;
+}
+.girltext > a{
+    text-decoration: none;
+    color: blue;
+}
+.member2{
+    width: 90%;
+    height: 50%;
+    /* background-color: crimson; */
+    margin-left: 59px;
+    display: flex;
+    
+}
+.boy{
+    width: 50%;
+    height:400px ;
+    /* background-color: firebrick; */
+    display: flex;
+    gap: 20px;
+}
+.boyimage{
+    width: 60%;
+    height: 60%;
+    background-color: azure;
+    background-image: url(korean.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.boyimage1{
+    background-image: url(cover.jpg);
+}
+.boytext{
+    width: 55%;
+    height: 70%;
+    padding-top: 10px;
+}
+.boytext > a{
+    text-decoration: none;
+    color: blue;
+}
+.imageseven{
+    width: 100%;
+    height: 950px;
+    /* background-color: rgb(250, 149, 149); */
+    background-image: url(City_skyscrapers_blue_sky_photography_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.74);
+    /* display: flex; */
+}
+
+.image7one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image7two{
+    width: 75%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.yourname{
+    width: 60%;
+    height: 450px; 
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.input{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 8px;
+}
+.yourplace{
+    width: 40%;
+    height: 400px;
+    /* background-color: thistle; */
+    display: flex;
+    gap: 10px;
+
+    flex-direction: column;
+    align-items:center;
+    /* justify-content: center; */
+}
+.message{
+    height: 100px;
+    width: 90%;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.border{
+    width: 90%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+.border2{
+    border-bottom: none;
+}
+.bord{
+    width:45%;
+    height:50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+.image7send{
+    width: 25%;
+    height: 40px;
+    background-color:rgb(101, 2, 194);
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+.side{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    padding-top: 50px;
+}
+.image7send > i {
+    font-size: 20px;
+}
+.yourname > .border{
+    font-size: 18px;
+}
+.message > .border2{
+    font-size: 18px;
+}
+.input > .bord{
+    font-size: 18px;
+}
+.yourplace > i{
+    color:darkblue;
+    font-size: 30px;
+}
+.darkblue{
+    width: 100%;
+    height: 100px;
+    background-color:blue;
+    display: flex;
+    gap: 20px;
+  
+    align-items: center;
+    justify-content: center;
+}
+.facebook > i{
+    font-size: 25px;
+    color: white;
+}
+.twitter > i{
+    font-size: 25px;
+    color: white;
+}
+.google > i{
+    font-size: 25px;
+    color: white;
+}
+.link > i{
+    font-size: 25px;
+    color: white;
+}
+.facebook{
+    width: 5%;
+    height: 40px;
+    /* background-color: aqua; */
+}
+.twitter{
+    width: 5%;
+    height: 40px;
+    /* background-color: rgb(4, 0, 255); */
+}
+.google{
+    width: 5%;
+    height: 40px;
+    /* background-color: rgb(255, 0, 212); */
+}
+.link{
+    width: 5%;
+    height: 40px;
+    /* background-color: rgb(255, 51, 0); */
+}
+.lightblue{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.transparent{
+    color:rgb(215, 171, 255);
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

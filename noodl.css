@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* background-color: beige; */
+    display: flex;
+    gap: 19%;
+    
+    
+}
+.navtitle{
+    width: 15%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.navoption{
+    width: 35%;
+    height: 100%;
+     /* background-color: blueviolet;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+     
+}
+.navoption >a{
+    color: black;
+    text-decoration: none;
+
+}
+.firstfont{
+    width: 50%;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 50px;
+}
+.secondfont{
+    width: 34%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.download{
+    width: 17%; 
+    height: 73px;
+    background-color: rgb(57, 237, 243);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+.thirdfont{
+    font-weight: bold;
+
+}
+
+
+
+
+
